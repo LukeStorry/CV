@@ -3,6 +3,7 @@
 \usepackage[a4paper, margin=1cm]{geometry}
 
 \usepackage[familydefault,light]{Chivo}
+\usepackage{hyperref}
 
 \usepackage{xcolor}
 \definecolor{boxcol}{gray}{0.9}
@@ -13,23 +14,34 @@
 \newcommand{\zz}[3]{{\large\textbf{#1}} \hfill {\small \colorbox{boxcol}{\texttt{#3}} }\\{#2}\vspace{0.5em}}
 \newcommand{\li}{\textcolor{linecol}{|}}
 
-
 \begin{document}
 \begin{center}
 {\Huge{{Luke}\textbf{Storry}}}
 
 {\large \href{mailto:Luke@LukeStorry.co.uk}{Luke@LukeStorry.co.uk} $|$ 07805 925658}\\
+Bristol Computer Science Student with a love of the outdoors, 
+%{\Large MEng Computer Science Student at the University of Bristol\vfill}\\
 
 {\textcolor{linecol}\hrulefill}
 \end{center}
 \begin{minipage}[t]{0.28\textwidth} 
-
-%address
-
-%Links
-
+1.4 University Hall\\University Close\\Bristol\\BS91AR
+\vspace{0.5em}\\
+\href{https:lukestorry.co.uk}{\textbf{LukeStorry}.co.uk} \\
+\href{https://github.com/lukestorry}{Github.com/\textbf{lukestorry}} \\
+\href{https://www.linkedin.com/in/lukestorry}{LinkedIn.com/in/\textbf{lukestorry}} \\
+\href{https://instagram.com/lukestorry}{Instagram.com/\textbf{lukestorry}}
+\\
 
 \sect{Work Experience}
+\zz{UoB Senior Resident}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam}{}
+
+\zz{Windsurfing Instructor}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam}{}
+
+\zz{Social Media Strategist}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam}{}
+
+\zz{Outreach Coordinator}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam}{}
+\\
 
 \sect{Other Interests}
 
@@ -39,9 +51,14 @@
 \hfill
 \begin{minipage}[t]{0.7\textwidth} 
 \sect{Education}
+\zz{University of Bristol}{MEng Computer Science}{2014-2019}
+
+\zz{Exeter College}{International Baccalaureate \textbf{38} {\scriptsize - HL: English, Physics, Chemistry, SL: Maths, German, Psychology}\\
+A-Level Mathematics \textbf{A*}, 
+AS Further Mathematics \textbf{A}, AS Computing \textbf{A}}{2011-2014}
+
 
 \sect{Coursework}
-
 \zz{Games Project}
 {Worked in team of 6 to create networked multiplayer Unity game.}{Unity\li C\#\li git\li Agile}
 
@@ -51,9 +68,39 @@
 \zz{Image Processing and Computer Vision}
 {Implemented a variety of Computer Vision algorithms and methods to detect dartboards in noisy images.}{Python\li OpenCV}
 
+\zz{Intro to High Performance Computing}
+{Designed, implemented and analysed high performance parallel versions of matrix algorithms on the university’s Blue Crystal supercomputer cluster.}{C\li OpenMP\li BASH}
+
+
+\zz{Artificial Intelligence with Logic Programming}
+{Used the declarative Programming, knowledge representation and automated inference features of Prolog to implement a variety of AI and natural-language-processing algorithms in a simple computer game}{Prolog}
+
+\zz{Concurrent Computing}
+{Prototyped then implemented an efficient Game Of Life program on an XMOS board.}{Python\li PyUnit\li C\li XC\li CSP}
+
+\zz{Computational Neuroscience}
+{Simulated models of neurons, networks, and cortical areas.}{Python\li Julia}
+
+\zz{Software Product Engineering}
+{Prototyped new storage and retrieval system for atBristol's exhibits, whilst streamlining booking and entry to the museum.}{Firebase\li Node.js\li HTML\li CSS\li UX\li Android\li Java}
+
+\zz{Human-Computer Interaction}{Designed, built and ran a psychological experiment comparing input speeds of touchscreen vs mouse.}{Python\li Tkinter\li SPSS\li Latex}
+
+\zz{Language Engineering}{Built tools to parse, verify and compile a simple custom language.}{Haskell}
+
+\zz{Programming and Algorithms}{Built a variety of programs to explore different coding paradigms, culminating in a full-tested board game simulation with integrated AI and networking.}{C\li Haskell\li Java\li Ant\li AWT\li Javascript}
+\\
+
 \sect{Other Projects}
+\zz{\href{https://github.com/LukeStorry/simple_read}{}Simple\_Read}
+{Winning Accessibility Hackathon entry - Chrome extension that analyses and simplifies web articles to simpler English.}{Javascript\li JSON\li HTML\li CSS\li Chrome APIs}
+
+\zz{\href{https://github.com/LukeStorry/Juliasets}{JuliaSets}}{Extended Essay exploring the visualisation of Julia Set fractals on the complex plane.}{C\li Python}
+
+\zz{FlappyBird on Scratch}{Designed workshop for use in schools, teaching KS2 children how to code by developing a custom version of the then-viral FlappyBird game.}{Scratch\li \LaTeX}
+
+\zz{Code-a-Clock}{Developed online worksheet for use in demo lab sessions at University Open Days.}{Java\li Processing\li GitHub Pages}
 
 
 \end{minipage} 
-
 \end{document}
