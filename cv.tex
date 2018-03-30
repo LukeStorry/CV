@@ -4,7 +4,15 @@
 
 \usepackage[familydefault,light]{Chivo}
 
+\usepackage{xcolor}
+\definecolor{boxcol}{gray}{0.9}
+\definecolor{linecol}{gray}{0.5}
+
 \newcommand{\sect}[1]{{\LARGE{\textbf{#1}}}\vspace{0.1em}\\}
+
+\newcommand{\zz}[3]{{\large\textbf{#1}} \hfill {\small \colorbox{boxcol}{\texttt{#3}} }\\{#2}\vspace{0.5em}}
+\newcommand{\li}{\textcolor{linecol}{|}}
+
 
 \begin{document}
 \begin{center}
@@ -33,6 +41,15 @@
 \sect{Education}
 
 \sect{Coursework}
+
+\zz{Games Project}
+{Worked in team of 6 to create networked multiplayer Unity game.}{Unity\li C\#\li git\li Agile}
+
+\zz{Machine Learning}
+{Used statistical modelling and inference, for classification and de-noising of datasets.}{Python\li NumPy\li SciPy\li Matplotlib}
+
+\zz{Image Processing and Computer Vision}
+{Implemented a variety of Computer Vision algorithms and methods to detect dartboards in noisy images.}{Python\li OpenCV}
 
 \sect{Other Projects}
 
