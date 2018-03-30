@@ -8,28 +8,31 @@
 \pagenumbering{gobble}
 
 \usepackage{xcolor}
-\definecolor{boxcol}{gray}{0.9}
-\definecolor{linecol}{gray}{0.5}
-
-\newcommand{\sect}[1]{{\LARGE{\textbf{#1}}}\vspace{0.1em}\\}
-
-\newcommand{\xx}[2]{{\large\textbf{#1}}\\{#2}\vspace{0.5em}}
-
-\newcommand{\zz}[3]{{\large\textbf{#1}} \hfill {\small \colorbox{boxcol}{\texttt{#3}} }\\{#2}\vspace{0.5em}}
+\definecolor{dark}{RGB}{40,100,160}
+\definecolor{light}{RGB}{220, 240, 255}
 
 
-\newcommand{\li}{\textcolor{linecol}{|}}
+\newcommand{\bold}[1]{\textbf{\textcolor{dark}{#1}}}
+
+\newcommand{\sect}[1]{{\color{dark}\LARGE\textbf{#1}}\vspace{0.2em}\\}
+
+\newcommand{\xx}[2]{{\large\bold{#1}}\\{#2}\vspace{0.5em}}
+
+\newcommand{\zz}[3]{{\large\bold{#1}} \hfill {\small \colorbox{light}{\texttt{#3}}}\\{#2}\vspace{0.5em}}
+
+
+\newcommand{\li}{\textcolor{dark}{|}}
 
 \begin{document}
 \begin{center}
-{\Huge{{Luke}\textbf{Storry}}}
+{\color{dark}\Huge Luke\textbf{Storry}}
 \hspace{0.1em}
 
 {\large \href{mailto:Luke@LukeStorry.co.uk}{Luke@LukeStorry.co.uk}  $|$  07805 925658} 
-\hspace{0.1em}
 
 Bristol Computer Science Student with a love of the outdoors.\\
-{\textcolor{linecol}\hrulefill}
+\vspace{-0.5em}
+{\color{dark}\hrulefill}
 \end{center}
 %
 %
@@ -41,13 +44,13 @@ Bristol Computer Science Student with a love of the outdoors.\\
 \begin{minipage}[t]{0.33\textwidth} %% COLUMN 1
 1.4 University Hall\\University Close\\Bristol\\BS91AR
 \vspace{0.5em}\\
-%\href{https:lukestorry.co.uk}{\textbf{LukeStorry}.co.uk} \\
-\href{https://github.com/lukestorry}{Github.com/\textbf{lukestorry}} \\
-%\href{https://www.linkedin.com/in/lukestorry}{LinkedIn.com/in/\textbf{lukestorry}} \\
-%\href{https://instagram.com/lukestorry}{Instagram.com/\textbf{lukestorry}}
+%\href{https:lukestorry.co.uk}{\bold{LukeStorry}.co.uk} \\
+\href{https://github.com/lukestorry}{Github.com/\bold{\textcolor{dark}{lukestorry}}} \\
+%\href{https://www.linkedin.com/in/lukestorry}{LinkedIn.com/in/\bold{lukestorry}} \\
+%\href{https://instagram.com/lukestorry}{Instagram.com/\bold{lukestorry}}
 \\
 \raggedright
-\sect{Work Experience}
+\sect{Work}
 \xx{UoB Senior Resident}
 {Part of the university's pastoral and welfare teams, developing and maintaining communal life, running a variety of events throughout the year, as well as providing support for students in need.}
 
@@ -55,22 +58,20 @@ Bristol Computer Science Student with a love of the outdoors.\\
 {Coordinated with the logistics and marketing teams to advertise and promote Student Windsurfing events around the country, across a variety of platforms, doubling reach on average every two months.}
 
 \xx{CS Outreach Coordinator}{Worked with University staff to enhance the department's outreach program, on open days and visits to local schools. \\
-Designed \& run workshops for a variety of ages, with the aim of encouraging students' excitement about CS \& engineering.}
+Designed \& ran workshops for a variety of ages, with the aim of encouraging participants' excitement about CS \& engineering.}
 
 \xx{Chief Windsurfing Instructor}
-{Lead and managed a team of 15 instructors providing tuition to over 100 beginners at the SWA Aussie Kiss Festival 2017.}
+{Led and managed a team of 17 instructors providing tuition to over 100 beginners and 50 intermediates at the SWA Aussie Kiss Festival 2017.}
 
 \xx{Windsurfing Instructor}
 {Summer seasons, June-September\\
-\textbf{2015} - MW San Lucianu, Corsica\\
-\textbf{2016} - MW Lemnos Hotel, Greece\\
-\textbf{2017} - Windsurf Vassiliki, Greece\\
-Worked as part of close-knit beach teams at watersports centers\\
+\bold{2015} - MW San Lucianu, Corsica\\
+\bold{2016} - MW Lemnos Hotel, Greece\\
+\bold{2017} - Windsurf Vassiliki, Greece\\
+Worked as part of close-knit beach teams at watersports centers.\\
 Variety of roles: teaching adults and children, boat-carrying, equipment repair, and safety-boat driving.}
 
-
-\hspace{0.1em}
-
+\vspace{0.4em}
 \sect{Hobbies}
 
 \xx{Kayaking}
@@ -85,26 +86,20 @@ Variety of roles: teaching adults and children, boat-carrying, equipment repair,
 
 
 
-
-
-
 \end{minipage} 
 \hfill
 \begin{minipage}[t]{0.66\textwidth}
-
-
 % % %  C O L U M N  T W O 
-
-
-
-
-
+%
+%
 \sect{Education}
-\zz{University of Bristol}{MEng Computer Science \small{(currently at 2.1 grade)}}{2014-2019}
+\zz{University of Bristol}
+{MEng Computer Science \small{(currently at 2.1 grade)}}{2014-2019}
 
-\zz{Exeter College}{International Baccalaureate \textbf{38} {\scriptsize - HL: English, Physics, Chemistry, SL: Maths, German, Psychology}\\
-A-Level Mathematics \textbf{A*}, 
-AS Further Mathematics \textbf{A}, AS Computing \textbf{A}}{2011-2014}
+\zz{Exeter College}
+{International Baccalaureate \bold{38} {\scriptsize - HL: English, Physics, Chemistry, SL: Maths, German, Psychology}\\
+A-Level Mathematics \bold{A*}, 
+AS Further Mathematics \bold{A}, AS Computing \bold{A}}{2011-2014}
 
 
 
@@ -119,38 +114,38 @@ AS Further Mathematics \textbf{A}, AS Computing \textbf{A}}{2011-2014}
 \raggedright
 \sect{Coursework}
 \zz{Games Project}
-{Worked in a team of 6 to create a complex, networked multiplayer game.}{Unity\li C\#\li git\li Agile}
+{Developed, in a team of 6, a complex, networked, multiplayer game.}{Unity\li C\#\li Scrum Agile\li git}
 
 \zz{Machine Learning}
 {Used statistical analysis, modelling and inference for the classification and de-noising of complex datasets.}{Python\li NumPy\li SciPy\li Matplotlib}
 
 \zz{Image Processing and Computer Vision}
-{Implemented a variety of Computer Vision algorithms and methods to detect dartboards in noisy images, with an F1-score of 125x the stock VJ method.}{Python\li OpenCV}
+{Applied a variety of Computer Vision algorithms and methods to detect dartboards in noisy images, with an F1-score of 125x the stock VJ method.}{Python\li OpenCV}
 
 \zz{High Performance Computing}
-{Designed, implemented and analyzed high performance parallel versions of matrix operations on the Blue Crystal supercomputer cluster.\\
-Serial speedups of 26x, and 150x on 16 parallel cores}{C\li OpenMP\li BASH}
+{Designed, implemented and analyzed high performance parallel versions of matrix-operation algorithms on the Blue Crystal supercomputer cluster.\\
+Serial speedups of 26x, and 150x on 16 parallel cores.}{C\li OpenMP\li BASH}
 
 \zz{Artificial Intelligence with Logic Programming}
-{Used the automated inference features of Prolog to implement a variety of AI and natural-language-processing algorithms}{Prolog}
+{Utilized the automated inference features of Prolog to implement a variety of AI and natural-language-processing algorithms}{Prolog}
 
 \zz{Concurrent Computing}
-{Implemented an efficient Game Of Life program on an XMOS board.}{Python\li PyUnit\li C\li XC\li CSP}
+{Produced an efficient Game Of Life program for the XMOS xCore-200 board.}{Python\li PyUnit\li C\li XC\li CSP}
 
 \zz{Computational Neuroscience}
 {Simulated models of neurons, networks, and cortical areas.}{Python\li Julia}
 
 \zz{Software Product Engineering}
-{Four-member team prototyped a new storage and retrieval system for atBristol's exhibits, whilst streamlining booking and entry to the museum.}{Firebase\li Node.js\li HTML5\li Android}
+{Five-member team prototyped new media storage and retrieval systems for atBristol's exhibits, whilst streamlining booking and entry to the museum.}{Firebase\li Node.js\li HTML5\li Android}
 
 \zz{Human-Computer Interaction}
-{Designed, built and ran a psychological experiment comparing input speeds of touchscreen vs mouse.}{Python\li Tkinter\li SPSS\li Latex}
+{Planned, built, and conducted a psychological experiment, comparing the input speeds of touchscreen vs mouse.}{Python\li Tkinter\li SPSS\li Latex}
 
 \zz{Language Engineering}
-{Built tools to parse, verify and compile a simple custom language.}{Haskell}
+{Created tools to parse, verify and compile a simple custom language.}{Haskell}
 
 \zz{Programming \& Algorithms}
-{Wrote a variety of programs to explore different coding paradigms, culminating in a fully-tested board game simulation with integrated AI and networking.}{Java\li Ant\li AWT\li Javascript}
+{Constructed a variety of programs to explore different coding paradigms, culminating in a fully-tested board game simulation with integrated AI and networking.}{Java\li Ant\li AWT\li Javascript}
 \\
 
 
@@ -161,7 +156,8 @@ Serial speedups of 26x, and 150x on 16 parallel cores}{C\li OpenMP\li BASH}
 
 \sect{Other Projects}
 \zz{\href{https://github.com/LukeStorry/simple_read}{Simple\_Read}}
-{Winning entry to CSS Accessibility Hackathon - Chrome extension to analyze the reading age of web articles, then reduces to an age 22\% lower on average.}{Javascript\li JSON\li HTML\li CSS\li Chrome APIs}
+{Winning entry to CSS Accessibility Hackathon.\\
+Chrome extension that analyses the reading age of web articles, then simplifies the text to a reading age that's 22\% lower on average.}{Javascript\li JSON\li HTML\li CSS\li Chrome APIs}
 
 \zz{\href{https://github.com/LukeStorry/Juliasets}{Julia Sets}}{Visualization of Julia Set fractals on the complex plane.}{C\li Python}
 
