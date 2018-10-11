@@ -17,16 +17,22 @@
 
 \newcommand{\bold}[1]{\textbf{\textcolor{dark}{#1}}}
 
-\newcommand{\sect}[1]{{\LARGE\bold{#1}}\vspace{0.2em}\\}
+\newcommand{\sect}[1]{
+\vspace{0.4em} {\LARGE\bold{#1}}\vspace{0.2em}\\}
 
 \newcommand{\xx}[2]{{\large\bold{#1}}\\{#2}\vspace{0.5em}}
 
-\newcommand{\zz}[3]{{\large\bold{#1}} \hfill {\small \colorbox{light}{\texttt{#3}}}\\{#2}\vspace{0.5em}}
+\newcommand{\zz}[3]{
+{\large\bold{#1}} \hfill 
+{\small \colorbox{light}{\texttt{#3}}}\\
+{#2}\vspace{0.6em}}
 
 
 \newcommand{\li}{\textcolor{mid}{|}}
 
 \begin{document}
+
+\vspace{0.6em}
 
 \begin{center}
 {\color{dark}\Huge Luke\textbf{Storry}}
@@ -43,19 +49,23 @@ Bristol Computer Science MEng Student with a love of the outdoors.\\
 
 
 % % %  C O L U M N  O N E  % % %
-
-\begin{minipage}[t]{0.33\textwidth}
+\hspace{-1.5em}
+\begin{minipage}[t]{0.34\textwidth}
 \raggedright
+
+\vspace{0.5em}
 
 1.29  The Hawthorns\\Woodland Road\\Bristol\\BS81UQ
 
 \vspace{0.5em}
-%\href{https:lukestorry.co.uk}{\bold{LukeStorry}.co.uk} \\
-\href{https://github.com/lukestorry}{github.com/\bold{\textcolor{dark}{lukestorry}}} \\
-%\href{https://www.linkedin.com/in/lukestorry}{LinkedIn.com/in/\bold{lukestorry}} \\
-%\href{https://instagram.com/lukestorry}{Instagram.com/\bold{lukestorry}}\\
 
-\vspace{0.5em}
+%\href{https://lukestorry.co.uk}{\bold{LukeStorry}.co.uk} \\
+\href{https://github.com/lukestorry}{github.com/\bold{\textcolor{dark}{lukestorry}}}
+\href{https://www.linkedin.com/in/lukestorry}{LinkedIn.com/in/\bold{lukestorry}} \\
+% \href{https://instagram.com/lukestorry}{Instagram.com/\bold{lukestorry}}\\
+
+\vspace{1.5em}
+
 \sect{Other Work}
 \xx{UoB Chief Senior Resident}
 {Supervising a team of Senior Residents as part of the University's ResiLife pastoral welfare system. Developing and maintaining communities within halls, running events, and providing vital support for students in need.
@@ -83,17 +93,19 @@ Designed \& ran workshops for a variety of ages, with the aim of inspiring the n
 % Worked as part of close-knit beach teams at watersports centers.\\
 % Variety of roles: teaching adults and children, boat-carrying, equipment repair, and safety-boat driving.}
 
-\vspace{0.4em}
+
+
+
 \sect{Hobbies}
 
 \xx{Climbing}
-{Boulder indoors \& out multiple times a week, and starting to develop my trad-climbing skills.}
+{Boulder indoors multiple times a week, and starting to move towards outdoor trad-climbing.}
 
 \xx{Windsurfing}
 {Won first place in the intermediate fleet at BUCS Nationals 2017, alongside multiple years of experience as an instructor and coach.}
 
 \xx{Hiking}
-{I have a deep-seated love of mountains and coastal walks, and have completed multiple week-long hikes along the SW Coast path.}
+{Love of mountains and coastal walks, member of UoB expeditions society, and have completed multiple week-long solo hikes along the SW Coast path.}
 
 \xx{Kayaking}
 {Regularly surf-kayak, gained 2nd place in Canoe Freestyle at the UK's National Student Rodeo event 2017.}
@@ -109,25 +121,26 @@ Designed \& ran workshops for a variety of ages, with the aim of inspiring the n
 \begin{minipage}[t]{0.65\textwidth}
 \raggedright
 
-
+\vspace{-1.2em}
 \sect{Education}
 \zz{University of Bristol}
 {MEng Computer Science \small{(Expecting \bold{2.1})}}{2014-2019}
 
 \zz{Exeter College}
 {International Baccalaureate \bold{38} \\  
-\hspace{1em} {\small - HL: English, Physics, Chemistry, SL: Maths, German, Psychology}\\
+\hspace{1em} {\small - HL: English, Physics, Chemistry, SL: Maths, German, Psychology}
+\vspace{0.2em}
 A-Level Mathematics \bold{A*}, AS Further Mathematics \bold{A}, AS Computing \bold{A}}
 {2011-2014}
 
 
-\vspace{0.4em}
+
 \sect{Relevant Work Experience}
 
 \zz{Swanbarton - Software Engineer}
-{Successfully delivered a variety of energy storage and trading products, as a member of the research \& development team at an energy-management consultancy.
+{Successfully delivered, and helped design architectures for, a variety of energy management and trading products, as a member of the research \& development team at an energy-storage consultancy.
 
-Given a mixture of legacy code and new designs, my modular, full-stack and fully-tested Python code solved problems ranging from cloud-based optimization through to low-level control of industrial batteries.
+Given a mixture of legacy code and new designs, my modular, full-stack and test-driven Python code solved problems ranging from cloud-based optimization through to low-level control of industrial batteries.
 
 I also helped transition the software team over to an agile "scrum-ban" approach, by implementing a Jira-based workflow that greatly increased productivity whilst requiring less oversight from management.}
 {Python\li PyUnit\li Jira\li Docker\li Archi}
@@ -135,13 +148,12 @@ I also helped transition the software team over to an agile "scrum-ban" approach
 
 
 
-\vspace{0.35em}
 \sect{University Programming experience}
 
 \zz{Games Project}
 {Worked in a team of 6 to develop a complex networked multiplayer game.\\
 Designed an efficient algorithm for the procedural-generation of the layout of a city and surrounding map, and built various other aspects of the game.}
-{Unity\li C\#\li Scrum Agile\li git}
+{Unity\li C\#\li Scrum Agile\li git-flow}
 
 \zz{\href{https://lukestorry.co.uk/simple_read/}{Simple\_Read}}
 {Winning entry to CSS Accessibility Hackathon.\\
