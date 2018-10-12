@@ -1,2 +1,2 @@
 # CV
-My CV in LaTeX. Probably out of date.
+My CV, made with LaTeX.
